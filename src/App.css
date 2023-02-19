@@ -1,38 +1,49 @@
-.App {
-  text-align: center;
+
+body {
+background-image: url("https://storage.theoryandpractice.ru/tnp/uploads/image_unit/000/137/187/image/base_f761132e87.jpg");
+height: 100vh;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+
+
+}
+.container {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+height: 30vh;
+margin-left: 700px;
+margin-top: 70px;
+}
+.title {
+margin-top: 80px;
+}
+p, h2, button {
+font-family: 'Charm', cursive;
+}
+p {
+font-size: 30px;
+}
+button {
+font-size: 20px;
+padding: 10px 20px;
+border-radius: 40px;
+background-color: rgb(175, 167, 237);
+margin: 0;
+}
+button:hover {
+  background-color: rgb(162, 45, 102);
+  transform: scale(1.25);
+  box-shadow: 0px 2px 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h2 {
+  color: yellowgreen;
+font-weight: bolder;
+  font-size: 40px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+p {
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
